@@ -20,7 +20,7 @@ var upgrader = websocket.Upgrader{
 var connections []*websocket.Conn
 
 type SocketMessage struct {
-	EventType int                    `json:"actionType"`
+	EventType int                    `json:"eventType"`
 	Data      map[string]interface{} `json:"data"`
 }
 
