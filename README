@@ -1,0 +1,9 @@
+# Signle Source of truth  (Server)
+# TCP Server
+
+# Coords based events ?
+
+1.- client_action(sent to server) => 
+2.- server_read_action() => //
+3.- server_broadcasts_action() => //
+4.- client_reads_action() =>
